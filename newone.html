@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Company website</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            margin: 0px;
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .name{
+            background: linear-gradient(250deg,rgb(207, 53, 53),rgba(16, 231, 16, 0.808),rgba(35, 245, 35, 0.747),rgb(224, 224, 31),rgba(124, 48, 196, 0.726),rgb(41, 90, 90),rgb(204, 148, 44));
+            padding: 4px;
+            color: white;
+            font-size: 80px;
+            font-weight: lighter;
+            text-align: center;
+        }
+        #login
+        {
+            padding:2px;
+            margin: 6px;
+            float:right;
+        }
+        #user
+        {
+            margin-top: 2px;
+        }
+        #password
+        {
+            margin-top: 2px;
+        }
+
+        #signupbtn
+        {
+            margin-top: 2px;
+            background: rgba(13, 13, 170, 0.938);
+        }
+        #loginbtn
+        {
+            margin-top: 2px;
+            background: red;
+        }
+        nav{
+            background: linear-gradient(500deg,rgb(141, 20, 20),rgba(138, 221, 4, 0.644),rgba(116, 40, 116, 0.829),rgba(86, 240, 14, 0.63),rgba(167, 107, 73, 0.562),rgb(7, 95, 95),#632b5044,rgb(192, 107, 192),rgb(158, 74, 74), rgba(75, 26, 64, 0.514));
+            color: white;
+            padding: 10px;
+            margin-top: none;
+            height : 3.5em;
+            
+
+        }
+        nav ul li{
+            display: inline;
+            padding: 10px 20px;
+            font-size: 20px;
+        }
+        nav ul li:hover{
+            display: inline;
+            padding: 10px 20px;
+            font-size: 30px;
+            border-radius: 50px;
+            background: linear-gradient(500deg,rgb(123, 243, 11),rgb(29, 179, 238),rgba(243, 57, 57, 0.945),rgb(123, 238, 238));
+        }
+        li {
+  float: none;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: rgb(248, 85, 9);
+  text-align: right;
+  padding: 4px 6px;
+  text-decoration: none;
+}
+#ozo{
+    overflow: hidden;
+    float: right;
+    background: linear-gradient(120deg,rgba(71, 102, 43, 0.637),rgba(#d62323));
+    
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background: linear-gradient(deg,rgba(71, 102, 43, 0.637),rgba(207, 81, 81, 0.445),rgb(46, 209, 108));
+  margin-top: 0.5em;
+  
+}
+
+li.dropdown {  
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 60px;
+  box-shadow: 0px 4px 6px 0px rgba(25, 24, 100, 0.938);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: none;
+  margin-top: 3px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px 0px rgba(66, 63, 211, 0.938);
+}
+
+.dropdown-content a:hover {background-color: #14cff0;}
+
+.dropdown:hover .dropdown-content {
+  display: inline-block;
+}
+        .active{
+            display: inline;
+            padding: 10px 20px;
+            font-size: 20px;
+            border-radius: 50px;
+            background: linear-gradient(45deg, rgb(123, 255, 0),rgb(24, 189, 240)rgb(158, 34, 34));
+        }
+        aside{
+            float: left;
+            width: 150px;
+            height: 92vh;
+            padding: 20px;
+            background: linear-gradient(1500deg,rgb(10, 238, 113), rgb(22, 204, 218),rgb(28, 46, 48));
+            }
+            aside ul li{
+                padding: 8px 10px;
+                font-size: 20px;
+            }
+            aside ul li:hover{
+                padding: 12px 14px;
+                font-size: 15px;
+                background: linear-gradient(150deg ,cyan,rgb(72, 243, 95),rgb(169, 215, 233),rgb(250, 243, 250),rgb(235, 99, 99),rgb(78, 253, 78),rgb(245, 55, 245),rgb(161, 243, 38));
+                border-radius: 50px;
+            }
+            h1{
+                background: linear-gradient(1000deg,rgba(192, 93, 192, 0.555),rgba(155, 66, 66, 0.685),rgba(144, 238, 144, 0.562),rgba(173, 216, 230, 0.616),rgba(255, 0, 255, 0.329));
+            }
+            #para
+            {
+                background: linear-gradient(500deg,rgb(27, 243, 56),rgba(241, 191, 105, 0.644),rgba(42, 119, 235, 0.452),rgba(20, 20, 20, 0.459),rgba(106, 161, 184, 0.664),rgba(179, 53, 179, 0.705),rgba(223, 104, 223, 0.445),rgba(163, 214, 86, 0.678));  
+                
+           }
+            footer{
+                width:1350px;
+                height: 70px;
+                background: linear-gradient(45deg,rgba(163, 58, 58, 0.63),rgba(50, 150, 150, 0.521),rgba(163, 49, 49, 0.726),rgba(209, 209, 69, 0.945),rgba(97, 36, 97, 0.822),rgba(216, 66, 66, 0.801));
+                text-align: center;
+                font-size: x-large;
+                color: brown;
+        
+            }
+            *footer{
+                margin: 0px;
+                padding: 0px;
+            }
+            section{
+                font-size: x-large;
+            }
+    </style>
+</head>
+<body>
+    <div class = "name">
+        <div>PatchCords</div>
+    </div>
+        <div id="login">
+                <input id = "user" type="text" placeholder="username"><br>
+                <input id = "password" type="password" placeholder="password"><br>
+                <input id = "signupbtn" type = "submit" value = "      SignUp     "> 
+                <input id = "loginbtn" type = "submit" value = "      Login      "> 
+        </div>
+          <nav>
+            <ul>
+                <li class="active">Home</li>
+                <li>about</li>
+                <li>aboutus</li>
+                <li>contact us</li>
+                <li class = "dropdown">
+                    <a href = "javascript:void(0)" class = "dropbtn">Product</a>
+                    <div class = "dropdown-content">
+                        <a href = "#">Switch</a>
+                        <a href = "#">Router</a>
+                        <a href = "#">Firewall</a>
+                        <a href = "#">Fiber-uplink</a>
+                    </div>
+                </li>
+                <li class = "dropdown">
+                    <a href = "javascript:void(0)" class = "dropbtn">Installation</a>
+                    <div class = "dropdown-content">
+                        <a href = "#">Rack-Install</a>
+                        <a href = "#">Structure-cabling</a>
+                        <a href = "#">Internet</a>
+                        <a href = "#">Service</a>
+                    </div>
+                </li>
+                <li class = "dropdown">
+                    <a href = "javascript:void(0)" class = "dropbtn">Contact-us</a>
+                    <div class = "dropdown-content">
+                        <a href = "#">Blog</a>
+                        <a href = "#">Mobile-no</a>
+                        <a href = "#">Website</a>
+                        <a href = "#">Telephone-no</a>
+                        <a href = "#">Email</a>
+                        <a href = "#">Location</a>
+                    </div>
+                </li>
+                <li class = "dropdown">
+                    <a href = "javascript:void(0)" class = "dropbtn">Register</a>
+                    <div class = "dropdown-content">
+                        <a href = "#">Login</a>
+                        <a href = "#">sign-up</a>
+                    </div>
+                </li>
+            </ul>
+        </nav> 
+                <aside>
+                    <ul type = "none">
+                        <li > Kanpur-nagar</li>
+                        <li> Kanpur </li>
+                        <li> Lucknow</li>
+                        <li> Unnao </li>
+                        <li> Kanpur-dehat</li>
+                        <li> Zhanshi </li>
+                        <li> Etawah</li>
+                        <li> Uttar-Pradesh</li>
+                    </ul>
+                </aside>   
+                <h1 id = "open">Home.</h1>            
+                    <aside id = "ozo">
+                    <ul>
+                        <li> Coaxial-Patchcords</li>
+                        <li> 4'port  </li>
+                        <li> 8'port </li>
+                        <li> Crimping tool </li>
+                        <li> RJ-45</li>
+                        <li> RJ-45 Male </li>
+                        <li> RJ-45 Female</li>
+                        <li> Toll-kit</li>
+                        <li> Installation</li>
+                        <li> Services</li>
+                    </ul>
+                </aside>
+          <section>
+            <div>     
+                
+                <p id = "para"> This is my first project based on html and css and i would be prouded that after so much time ofwaiting. i am able for making any front end template.Sunday is my favorite day of the week. I like it because on Sunday, I watch football. On other days, I also get to watch football but not all day. There are other sports on other days to watch on TV. Sunday lunch is a favorite of mine because I eat with my father in front of the TV. All the other days, I have to eat at the table which is less fun. Some days my dad doesn’t make it home from work until after I’m in bed. Some weeks my dad travels, and I don’t see him for several days. The highlight of the day is when we watch the Dolphins play. Dad and I get so excited, we yell and cheer together. The thing that I like to do best in the world is watch TV with my dad.
+                    Teacher Observations (Before)
+                    The topic sentence restates the prompt but does not unify the paragraph.
+                    The writer includes several irrelevant details.
+                    The unifying idea in this paragraph is that the writer likes Sunday because it gives him/her a chance to be with his/her dad. However, the idea is buried in this draft Teacher Observations (After)
+                    The topic sentence connects the writing prompt with a summary of the main idea.
+                    To keep the paragraph coherent, the most relevant details have been polished, and the others deleted.
+                    The closing sentence summarizes the paragraph and emphasizes the main idea.
+                    What is a paragraph?
+                    Paragraphs are comprised of sentences, but not random sentences. A paragraph is a group of sentences organized around a central topic. In fact, the cardinal rule of paragraph writing is to focus on one idea. A solidly written paragraph takes its readers on a clear path, without detours. Master the paragraph, and you’ll be on your way to writing “gold-star” essays, term papers, and stories so the fact is whenever someone try to observe on something so there are so many distraction available that can be spoiled attention on the some this 
+                that why when anybody want to focus on something so they should be polirize the term which we are called as a memory management
+            and this memory management polished all over the world when or may be it is suitable for everyone but apart from this 
+        we should be remember one thing that is our responsiblility.</p>
+            </div>
+          </section>
+          <footer >
+              <h1> this is websites uses some cookies </h1>
+          </footer>
+</body>
+</html>
